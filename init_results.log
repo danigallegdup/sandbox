@@ -1,0 +1,15 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1742323668099,75,1 Register Request,201,Created,Initial Setup 1-1,text,true,,287,267,1,1,http://localhost:8080/authentication/register,69,0,26
+1742323668711,29,2 Register Request,400,Bad Request,Initial Setup 1-1,text,false,,326,266,1,1,http://localhost:8080/authentication/register,29,0,0
+1742323669244,26,3 Failed Login Request,400,Bad Request,Initial Setup 1-1,text,false,,331,240,1,1,http://localhost:8080/authentication/login,26,0,0
+1742323669772,22,4 Login Request,200,OK,Initial Setup 1-1,text,true,,524,239,1,1,http://localhost:8080/authentication/login,22,0,0
+1742323670300,174,5 Create Google Stock Request,200,OK,Initial Setup 1-1,text,true,,341,438,1,1,http://localhost:8080/setup/createStock,174,0,0
+1742323670977,31,6 Add Google Stock Request,200,OK,Initial Setup 1-1,text,true,,294,496,1,1,http://localhost:8080/setup/addStockToUser,31,0,0
+1742323671510,25,7 Create Apple Stock Request,200,OK,Initial Setup 1-1,text,true,,341,437,1,1,http://localhost:8080/setup/createStock,25,0,0
+1742323672726,28,8 Add Apple Stock Request,200,OK,Initial Setup 1-1,text,true,,294,496,1,1,http://localhost:8080/setup/addStockToUser,28,0,0
+1742323673256,27,9 Get Stock Portfolio Request,200,OK,Initial Setup 1-1,text,false,,497,406,1,1,http://localhost:8080/transaction/getStockPortfolio,27,0,0
+1742323673792,34,10 Place Stock Order Request,200,OK,Initial Setup 1-1,text,true,,855,548,1,1,http://localhost:8080/engine/placeStockOrder,33,0,0
+1742323674328,38,11 Place Stock Order Request,200,OK,Initial Setup 1-1,text,true,,855,548,1,1,http://localhost:8080/engine/placeStockOrder,37,0,0
+1742323674874,18,12 Get Stock Portfolio Request,200,OK,Initial Setup 1-1,text,true,,321,406,1,1,http://localhost:8080/transaction/getStockPortfolio,18,0,0
+1742323675395,17,13 Get Stock Transactions Request,200,OK,Initial Setup 1-1,text,true,,1422,409,1,1,http://localhost:8080/transaction/getStockTransactions,17,0,0
+1742323675430,3,Debug Sampler,200,OK,Initial Setup 1-1,text,true,,1426,0,1,1,null,0,0,0
